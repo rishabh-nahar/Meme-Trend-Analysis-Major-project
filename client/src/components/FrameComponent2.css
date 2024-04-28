@@ -1,0 +1,61 @@
+.placeholder1,
+.subscribe3 {
+  position: relative;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 81px;
+}
+.placeholder1 {
+  min-width: 86px;
+}
+.icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  min-height: 24px;
+}
+.c-t-a-button-white,
+.input1 {
+  align-self: stretch;
+  display: flex;
+}
+.input1 {
+  border-radius: var(--br-21xl);
+  background-color: var(--color-gray-400);
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-5xl);
+  gap: var(--gap-xl);
+}
+.c-t-a-button-white {
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  color: var(--color-gray-300);
+}
+.subscribe-container,
+.subscribe2 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.subscribe2 {
+  width: 665px;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+.subscribe-container {
+  width: 979px;
+  flex-direction: row;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

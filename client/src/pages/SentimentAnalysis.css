@@ -1,0 +1,400 @@
+.frame-child {
+  height: 55px;
+  width: 58px;
+  position: relative;
+}
+.sentiment-analysis1 {
+  margin: 0;
+  width: 980px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -1px;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.instance-parent {
+  width: 1178px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.cat-1-icon,
+.frame-wrapper {
+  align-self: stretch;
+  max-width: 100%;
+}
+.frame-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cat-1-icon {
+  position: relative;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.action1 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--anti-flash-white);
+  text-align: center;
+  min-width: 112px;
+}
+.cta-button-black {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--black);
+  border-radius: var(--br-13xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.cta-button-black1:hover,
+.cta-button-black2:hover,
+.cta-button-black:hover {
+  background-color: var(--color-darkslategray);
+}
+.action2 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  font-family: var(--font-inter);
+  color: var(--anti-flash-white);
+  text-align: center;
+}
+.cta-button-black1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--black);
+  border-radius: var(--br-13xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.action-button,
+.c-t-a-buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+.action-button {
+  flex: 1;
+  justify-content: center;
+  gap: var(--gap-43xl);
+}
+.c-t-a-buttons-container {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 62px 0 var(--padding-47xl);
+  box-sizing: border-box;
+}
+.cat-1-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  min-width: 350px;
+  max-width: 100%;
+}
+.action3 {
+  position: relative;
+  font-size: var(--font-size-base);
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: inline-block;
+  font-family: var(--font-inter);
+  color: var(--anti-flash-white);
+  text-align: center;
+  min-width: 99px;
+}
+.cta-button-black2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--black);
+  position: absolute;
+  top: 331px;
+  left: 190px;
+  border-radius: var(--br-13xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 99;
+}
+.feature-one-title {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  z-index: 1;
+}
+.feature-one1 {
+  width: 294px;
+  position: relative;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}
+.feature-one,
+.feature-two-description {
+  align-self: stretch;
+  border-radius: var(--br-xs);
+}
+.feature-two-description {
+  border: 0;
+  background-color: transparent;
+  height: 220px;
+  width: auto;
+  outline: 0;
+  position: relative;
+  background: linear-gradient(#f3f3f3, #f3f3f3), #d9d9d9;
+}
+.feature-one {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 10.9px 0;
+  gap: var(--gap-base);
+  z-index: 2;
+}
+.feature-one3 {
+  width: 294px;
+  position: relative;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}
+.feature-one-child {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xs);
+  background: linear-gradient(#f3f3f3, #f3f3f3), #d9d9d9;
+}
+.feature-one-container,
+.feature-one2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.feature-one2 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-xs);
+  overflow: hidden;
+  align-items: flex-start;
+  padding: 0 var(--padding-2xs) 21px 0;
+  z-index: 2;
+}
+.feature-one-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: flex-end;
+  padding: 12.1px 14.4px 51px var(--padding-sm);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.cta-button-black-parent {
+  height: 679px;
+  flex: 1;
+  position: relative;
+  min-width: 350px;
+  max-width: 100%;
+}
+.frame-div,
+.frame-wrapper1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frame-div {
+  align-self: stretch;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-14xl);
+}
+.frame-wrapper1 {
+  width: 539px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.frame-container,
+.frame-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-container {
+  width: 1110px;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+}
+.frame-group {
+  flex: 1;
+  gap: var(--gap-61xl);
+}
+.sentiment-analysis,
+.sentiment-analysis-inner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.sentiment-analysis-inner {
+  width: 1306px;
+  flex-direction: row;
+  padding: 0 var(--padding-13xl) var(--padding-33xl);
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-49xl);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+.sentiment-analysis {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1200px) {
+  .instance-parent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .sentiment-analysis1 {
+    font-size: var(--font-size-35xl);
+    line-height: 48px;
+  }
+  .sentiment-analysis-inner {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .action-button {
+    flex-wrap: wrap;
+  }
+  .c-t-a-buttons-container {
+    padding-left: 33px;
+    padding-right: 31px;
+    box-sizing: border-box;
+  }
+  .frame-div {
+    gap: var(--gap-base);
+  }
+  .frame-group {
+    gap: var(--gap-21xl);
+  }
+  .sentiment-analysis-inner {
+    padding-bottom: 22px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .sentiment-analysis1 {
+    font-size: var(--font-size-22xl);
+    line-height: 36px;
+  }
+  .action-button {
+    gap: var(--gap-12xl);
+  }
+  .cat-1-parent,
+  .cta-button-black-parent {
+    min-width: 100%;
+  }
+  .frame-group {
+    gap: var(--gap-xl);
+  }
+}
+.b,
+.frame-item {
+  position: relative;
+  max-width: 100%;
+}
+.frame-item {
+  height: 76px;
+  width: 499px;
+  border-radius: var(--br-xs);
+  background: linear-gradient(#f3f3f3, #f3f3f3), #d9d9d9;
+  display: none;
+}
+.b {
+  flex: 1;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  display: inline-block;
+  z-index: 1;
+}
+.rectangle-parent {
+  flex: 1;
+  border-radius: var(--br-xs);
+  background: linear-gradient(#f3f3f3, #f3f3f3), #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-60xl) var(--padding-17xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--font-size-7xl);
+  color: var(--black);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 750px) {
+  .rectangle-parent {
+    padding-left: var(--padding-20xl);
+    padding-right: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}

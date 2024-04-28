@@ -1,0 +1,14 @@
+.about {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex;
+  justify-content: flex-start;
+  padding: 0 0 5px;
+  box-sizing: border-box;
+  line-height: normal;
+  letter-spacing: normal;
+}
