@@ -26,8 +26,7 @@ python main.py
 
 ## Contributors:
 1. Tanmay Arsania
-2. Rishabh Nahar
-3. Aashlesha Rajput
+2. Aashlesha Rajput
 
 
 
