@@ -4,7 +4,6 @@
 The Meme Trend Analyzer is a sophisticated system designed explicitly for marketing purposes, aimed at sourcing memes from diverse social media platforms to endorse organizational products or services. This project focuses on establishing a meticulously organized meme database while integrating cutting-edge technologies to provide nuanced insights from meme images.
 
 ## Features
-- **Web Scraping with Selenium**: Utilizes Selenium for web scraping to collect memes from various social media platforms.
 - **Image Analysis with Convolutional Neural Networks (CNN)**: Employs CNN to extract detailed insights from meme images, including visual elements and contextual information.
 - **Machine Learning Methodologies**: Incorporates clustering algorithms for sentiment analysis, considering factors such as humor, visual appeal, and alignment with contemporary trends to predict meme virality.
 - **Text Extraction and Analysis**: Extracts text from memes and evaluates it using clustering algorithms to generate a predictive score, indicating the likelihood of a meme gaining traction.
